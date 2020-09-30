@@ -24,6 +24,7 @@ namespace BuscaEndereco.Controllers
 
         // GET: api/Enderecos
         [HttpGet]
+        //[Route ("irineu")]
         public async Task<ActionResult<IEnumerable<Endereco>>> Get()
         {
             //Endereco endereco = new Endereco();

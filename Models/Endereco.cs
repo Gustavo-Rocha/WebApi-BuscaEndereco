@@ -20,6 +20,7 @@ namespace BuscaEndereco.Models
         public string Rua { get; set; }
 
         [Required]
+        [Range(0,int.MaxValue,ErrorMessage = "Insira um número valido")]
         public int Numero { get; set; }
         public string Bairro { get; set; }
         public string Cidade { get; set; }
